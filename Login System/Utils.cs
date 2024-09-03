@@ -8,9 +8,10 @@ namespace Login_System
 {
     public static class Utils
     {
-        public static bool Validate()
+        public static bool Validate(string input)
         {
-            return true;
+            //returns true if input was not empty
+            return input != "";
         }
         public static int login()
         {
